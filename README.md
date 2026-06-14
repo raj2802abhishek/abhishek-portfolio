@@ -1,57 +1,215 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
+<h1 align="center">🚀 Abhishek Raj Portfolio</h1>
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./screen-capture%20(13).webm)
+<p align="center">
+  <img src="./screenshot.png" alt="Portfolio Preview" width="100%">
+</p>
 
-A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
+<p align="center">
+  <strong>Full Stack Developer • AI/ML Enthusiast • QA Engineer</strong>
+</p>
 
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
+<p align="center">
+  <a href="https://abhishek-portfolio-topaz-one.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Portfolio-Visit%20Now-purple?style=for-the-badge" />
+  </a>
+</p>
 
-> Live preview: https://www.Abhishek Rajhaque.me/
-
----
-
-## ✨ Highlights
-
-- **3D / WebGL experience** powered by **Three.js**
-- Smooth animations with **GSAP**
-- Modern **React + TypeScript** codebase
-- Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
-
----
-
-## 🧰 Tech Stack
-
-- **React**
-- **TypeScript**
-- **Three.js / WebGL**
-- **GSAP**
-- **HTML / CSS / JavaScript**
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript" />
+  <img src="https://img.shields.io/badge/Vite-Latest-purple?style=flat-square&logo=vite" />
+  <img src="https://img.shields.io/badge/Three.js-3D-black?style=flat-square&logo=three.js" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-green?style=flat-square&logo=node.js" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-green?style=flat-square&logo=mongodb" />
+</p>
 
 ---
 
-## 🚀 Getting Started
+# 🌟 Overview
 
-### 1) Clone
+A modern and interactive developer portfolio built using React, TypeScript, Three.js, GSAP, and Vite.
+
+This portfolio showcases my professional journey, technical skills, projects, AI development experience, and provides recruiters and clients with a seamless way to connect with me.
+
+---
+
+# 👨‍💻 About Me
+
+Hi, I'm **Abhishek Raj**, a B.Tech Information Technology graduate from Gautam Buddha University.
+
+I specialize in:
+
+* Full Stack Web Development
+* Artificial Intelligence & Machine Learning
+* MERN Stack Development
+* Software Testing & QA Engineering
+* REST API Development
+* Database Design
+* Problem Solving & DSA
+
+I enjoy building scalable web applications, AI-powered systems, and modern user experiences.
+
+---
+
+# ✨ Features
+
+### 🎨 Modern UI/UX
+
+* Premium dark theme
+* Responsive design
+* Smooth animations
+* Interactive components
+
+### 🤖 AI Integration
+
+* AI-powered chatbot
+* Groq API integration
+* Personalized portfolio assistant
+
+### 🎮 Interactive Features
+
+* Play With Me section
+* Chess integration
+* Dynamic portfolio interactions
+
+### 🚀 Performance Optimized
+
+* Vite-powered builds
+* Code splitting
+* Lazy loading
+* Optimized assets
+
+### 📱 Responsive Design
+
+* Desktop
+* Tablet
+* Mobile
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+* React.js
+* TypeScript
+* Vite
+* Three.js
+* GSAP
+* React Router
+
+## Backend
+
+* Node.js
+* Express.js
+* REST APIs
+
+## Database
+
+* MongoDB
+* MongoDB Atlas
+
+## AI & Machine Learning
+
+* Python
+* TensorFlow
+* Keras
+* PyTorch
+* OpenCV
+* Scikit-learn
+* Hugging Face
+
+## Tools & Platforms
+
+* Git
+* GitHub
+* VS Code
+* Postman
+* Docker
+* Vercel
+* Render
+
+---
+
+# 💼 Featured Projects
+
+## 🎵 Moodify
+
+Emotion-based music recommendation system using AI and facial expression recognition.
+
+**Tech:** Python, TensorFlow, React, Spotify API
+
+---
+
+## 🤖 Fake Instagram Account Detector
+
+Deep Learning-based fake social media account detection system.
+
+**Tech:** Python, OpenCV, TensorFlow, Scikit-learn
+
+---
+
+## 🏨 Grilli-Restro
+
+Modern responsive restaurant website with booking functionality.
+
+**Tech:** HTML, CSS, JavaScript
+
+---
+
+## 🛒 Earthkind Naturals
+
+Full-stack e-commerce platform with authentication and product management.
+
+**Tech:** React, Node.js, MongoDB
+
+---
+
+## 📄 TalentScout AI
+
+AI-powered recruitment and resume screening platform.
+
+**Tech:** Python, NLP, React, Flask
+
+---
+
+# 📸 Portfolio Preview
+
+Visit Live Website:
+
+### 🌐 Live Demo
+
+https://abhishek-portfolio-topaz-one.vercel.app/
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
 
 ```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/raj2802abhishek/abhishek-portfolio.git
 ```
 
-### 2) Install
+Navigate to project:
+
+```bash
+cd abhishek-portfolio
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### 3) Run locally
+Run locally:
 
 ```bash
 npm run dev
 ```
 
-### 4) Build
+Build production version:
 
 ```bash
 npm run build
@@ -59,41 +217,42 @@ npm run build
 
 ---
 
-## 🧩 Customize (Quick Guide)
+# 📬 Contact
 
-Typical things you’ll want to update:
+### 📧 Email
 
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
+[abhishekraj55224@gmail.com](mailto:abhishekraj55224@gmail.com)
 
----
+### 💼 LinkedIn
 
-## ⭐ Support
+[www.linkedin.com/in/abhishek-raj](http://www.linkedin.com/in/abhishek-raj)
 
-If you found this useful:
+### 💻 GitHub
 
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
+https://github.com/raj2802abhishek
 
----
+### 🌐 Portfolio
 
-## 🤝 Connect
-
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
+https://abhishek-portfolio-topaz-one.vercel.app/
 
 ---
 
-## 🏷️ Recommended GitHub Topics (add in repo settings)
+# 📈 Current Focus
 
-Add these topics to improve GitHub search visibility:
-
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
+* Full Stack Development
+* AI/ML Projects
+* QA Engineering
+* Data Structures & Algorithms
+* Software Engineering Roles
 
 ---
 
-## 🪪 License
+# ⭐ Support
 
-This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
+
+<p align="center">
+Made with ❤️ by Abhishek Raj
+</p>
