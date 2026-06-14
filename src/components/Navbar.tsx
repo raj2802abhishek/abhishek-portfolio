@@ -3,6 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import Lenis from "lenis";
+// cspell: words gsap
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -33,14 +34,14 @@ const Navbar = () => {
     requestAnimationFrame(raf);
 
     // Handle navigation links
-    let links = document.querySelectorAll(".header ul a");
+    const links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
-      let element = elem as HTMLAnchorElement;
+      const element = elem as HTMLAnchorElement;
       element.addEventListener("click", (e) => {
         if (window.innerWidth > 1024) {
           e.preventDefault();
-          let elem = e.currentTarget as HTMLAnchorElement;
-          let section = elem.getAttribute("data-href");
+          const elem = e.currentTarget as HTMLAnchorElement;
+          const section = elem.getAttribute("data-href");
           if (section && lenis) {
             const target = document.querySelector(section) as HTMLElement;
             if (target) {
@@ -66,15 +67,16 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          RH
-        </a>
+       <a href="/#" className="navbar-title profile-logo" data-cursor="disable">
+  <img src="/images/abhishek.png" alt="Abhishek Raj" />
+  <span>AR</span>
+</a>
         <a
-          href="mailto:redoyanul1234@gmail.com"
+          href="mailto:abhishekraj55224@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          redoyanul1234@gmail.com
+          abhishekraj55224@gmail.com
         </a>
         <ul>
           <li>
